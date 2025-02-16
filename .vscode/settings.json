@@ -1,0 +1,23 @@
+{
+    "files.associations": {
+        "cmath": "cpp",
+        "memory": "cpp",
+        "random": "cpp",
+        "optional": "cpp",
+        "ranges": "cpp",
+        "array": "cpp",
+        "*.tcc": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp",
+        "functional": "cpp",
+        "limits": "cpp",
+        "ostream": "cpp",
+        "streambuf": "cpp",
+        "tuple": "cpp"
+    }
+}
