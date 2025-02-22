@@ -3,6 +3,7 @@
 PilotLight::PilotLight()
 {
     pinMode(LED_PIN, OUTPUT);
+    digitalWrite(LED_PIN, HIGH);
 }
 
 void PilotLight::flashing()

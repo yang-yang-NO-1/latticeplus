@@ -97,6 +97,7 @@ void longAClickStartHandler()
 {
     Serial.println("A按键长按开始"); // 打印日志,便于校验
     pilotLight.bright();             // 按下的时候LED亮起来
+    pilotLight.dim();                // 熄灭
 }
 
 /**

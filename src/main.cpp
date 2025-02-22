@@ -34,9 +34,10 @@ void handleUdpData()
     initStatus();
     break;
   case 4:
-    httptool.updateBilibiliFlag(); // 更新bilibili粉丝数量前,需要重置一下flag
-    subBili(udpdata.data);         // 订阅BIlibiliUID
-    initStatus();
+    // httptool.updateBilibiliFlag(); // 更新bilibili粉丝数量前,需要重置一下flag
+    // subBili(udpdata.data);         // 订阅BIlibiliUID
+    // initStatus();
+    ESP.restart(); // 重启系统
     break;
   case 5:
     lattice.shutdown(udpdata.data[0]); // 是否启用点阵屏幕
